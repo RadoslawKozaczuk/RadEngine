@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{CF3E3271-A7F7-4445-8A5A-D3BEA4B92C9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadEngine", "RadEngine\RadEngine.vcxproj", "{246CB69D-E575-467F-9CB9-B43C89F6A027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{246CB69D-E575-467F-9CB9-B43C89F6A027}.Debug|x64.ActiveCfg = Debug|x64
+		{246CB69D-E575-467F-9CB9-B43C89F6A027}.Debug|x64.Build.0 = Debug|x64
+		{246CB69D-E575-467F-9CB9-B43C89F6A027}.Release|x64.ActiveCfg = Release|x64
+		{246CB69D-E575-467F-9CB9-B43C89F6A027}.Release|x64.Build.0 = Release|x64
+		{CF3E3271-A7F7-4445-8A5A-D3BEA4B92C9E}.Debug|x64.ActiveCfg = Debug|x64
+		{CF3E3271-A7F7-4445-8A5A-D3BEA4B92C9E}.Debug|x64.Build.0 = Debug|x64
+		{CF3E3271-A7F7-4445-8A5A-D3BEA4B92C9E}.Release|x64.ActiveCfg = Release|x64
+		{CF3E3271-A7F7-4445-8A5A-D3BEA4B92C9E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA6865F-1A24-41CE-A9DC-ACD7D6B669B3}
+	EndGlobalSection
+EndGlobal
