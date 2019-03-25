@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>RAD_PLATFORM_WINDOWS;RAD_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -74,9 +75,11 @@
     <ClInclude Include="src\RadEngine\Application.h" />
     <ClInclude Include="src\RadEngine\Core.h" />
     <ClInclude Include="src\RadEngine\EntryPoint.h" />
+    <ClInclude Include="src\RadEngine\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\RadEngine\Application.cpp" />
+    <ClCompile Include="src\RadEngine\Log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
